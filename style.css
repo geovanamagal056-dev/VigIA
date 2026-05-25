@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5FFFD;
+}
+
+header{
+    background-color: #0F5C8A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+header p{
+    color: white;
+    font-size: 25px;
+    text-align:left ;
+}
+
+.logo{
+    width: 250px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+.texto-home{
+    width: 45%;
+}
+
+.texto-home h1{
+    color: #0F5C8A;
+    font-size: 70px;
+}
+
+.texto-home p{
+    color: #186D80;
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.imagem-home img{
+    width: 600px;
+    border-radius: 20px;
+}
+
+button{
+    background-color: #2CC3E6;
+    border: none;
+    padding: 20px 55px;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #186D80;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 100px;
+    gap: 0px;
+}
+
+.problema,
+.solucao{
+    width: 30%;
+}
+
+.problema img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+.solucao img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+.problema h2{
+    color: red;
+    font-size: 70px;
+}
+
+.solucao h2{
+    color: green;
+    font-size: 70px;
+}
+
+.problema p,
+.solucao p{
+    color: #186D80;
+    line-height: 35px;
+    font-size: 40px;
+}
+.ods{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ods4,
+.ods9,
+.ods10,
+.ods16{
+    width: 190px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.funciona{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+.texto-funciona{
+    width: 45%;
+}
+.texto-funciona h2{
+    color: #0F5C8A;
+    font-size: 70px;
+}
+
+.texto-funciona p{
+    color: #186D80;
+    line-height: 35px;
+    font-size: 40px;
+}
+
+.imagem-funciona{
+    display: flex;
+    gap: 25px;
+}
+
+.perfil,
+.chat{
+    width: 600px;
+    border-radius: 20px;
+}
+
+.contato{
+    text-align: center;
+    padding: 80px;
+}
+
+.icone{
+    width: 180px;
+}
+
+.contato h2{
+    color: #0F5C8A;
+    font-size: 50px;
+}
+
+.contato p{
+    color: #186D80;
+    font-size: 35px;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background-color: #F5FFFD;
+}
+
+.cadastro h1{
+    color: #0F5C8A;
+    font-size: 50px;
+}
+
+.cadastro p{
+    color: #186D80;
+    font-size: 25px;
+}
+
+.cadastro input{
+    width: 300px;
+
+    padding: 15px;
+
+    margin: 10px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ccc;
+
+    font-size: 18px;
+}
+
+.entrar{
+    margin-top: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    background-color: #186D80;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 50px;
+}
+
+footer h3{
+    font-size: 30px;
+}
+
+footer p{
+    font-size: 20px;
+    line-height: 30px;
+}
